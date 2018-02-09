@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #E7E7E7;
+}
+
+.root {
+	position: relative;
+}
+
+.App {
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.titleSection {
+	height: 100px;
+	text-align: center;
+	background-color: #D0011B;
+	color: #fff;
+}
+
+.siteName {
+	font-size: 30px;
+	font-weight: 900;
+	padding-top: 20px;
+}
+
+.title {
+	font-size: 13px;
+}
+
+table {
+	width: 100%;
+	background-color: #fff;
+}
+
+tr {
+	height: 70px;
+}
+
+.footer {
+	background-color: #D0011B;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+}
